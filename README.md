@@ -16,7 +16,14 @@ src/ :
   ----kernEntry -> Calls main from kernel.c  
   ----zeroes.asm -> Fills sectors with empty bytes  
   ----kernel.c -> The name speaks for itself :)  
-  ----inoutlib(.c/.h) -> Library to manage output (Soon input) streams  
+  ----inoutlib(.c/.h) -> Library to manage output (Soon input) streams 
+
+-kernel IO stream basics -> very basic command prompt (without commands :D).
+----boot.asm -> Bootloader
+----kernEntry -> Calls main from kernel.c
+----zeroes.asm -> Fills sectors with empty bytes
+----kernel.c -> The name speaks for itself :)
+----inoutlib(.c/.h) -> Library to manage output input (finally :D) stream
 
 More coming soon :D  
 
@@ -26,4 +33,5 @@ More coming soon :D
   I learned the ASM part thanks to this playlist : https://www.youtube.com/playlist?list=PLm3B56ql_akNcvH8vvJRYOc7TbYhRs19M (I got stuck many times but his explanation helped me through it <3)
   My first inspiration to start learning low-level programming : Terry A.Davis
   My second inspiration to start learning low-level programming is this video : https://youtu.be/ELTwwTsR5w8?si=5TPEGrpiS7oGRkry  
+  An useful site for understand how to communicate with hardware : https://wiki.osdev.org/
  
