@@ -1,5 +1,7 @@
 # osdev
 
+run.bat --> For compile and run quickly
+
 src :
 
 -tests asm -> Few function using BIOS until the activation of protected mode.  
